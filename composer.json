@@ -19,5 +19,6 @@
         "psr-4": {
             "Shopping\\Seller\\": "src"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
