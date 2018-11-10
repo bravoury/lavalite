@@ -1,0 +1,24 @@
+{
+    "name": "shopping/seller",
+    "description": "Seller package for shopping.",
+    "keywords": ["lavalite", "Seller"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lavalite",
+            "email": "info@lavalite.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.4"
+    },
+    "autoload": {
+        "classmap": [
+            "database/seeds"
+        ],
+        "psr-4": {
+            "Shopping\\Seller\\": "src"
+        }
+    },
+    "minimum-stability": "dev"
+}
