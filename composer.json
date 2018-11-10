@@ -3,6 +3,7 @@
     "description": "Seller package for shopping.",
     "keywords": ["lavalite", "Seller"],
     "license": "MIT",
+    "type": "lavalite-package",
     "authors": [
         {
             "name": "Lavalite",
@@ -18,7 +19,6 @@
         ],
         "psr-4": {
             "Shopping\\Seller\\": "src"
-        }
-    },
-    "minimum-stability": "dev"
+        },
+"minimum-stability": "dev"
 }
